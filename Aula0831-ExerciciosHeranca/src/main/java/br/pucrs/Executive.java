@@ -16,4 +16,10 @@ public class Executive extends Passagem{
         return (int) (this.getCustoPassagem()*0.1);
     }
 
+    @Override
+    public String toString() {
+        return "Imprimindo do objeto Executive";
+    }
+
+
 }

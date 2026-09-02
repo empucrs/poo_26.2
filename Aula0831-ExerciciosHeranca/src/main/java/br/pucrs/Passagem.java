@@ -28,4 +28,10 @@ public class Passagem{
         return this.custoPassagem;
     }
 
+    @Override
+    public String toString() {
+        return "Imprimindo do objeto Passagem";
+    }
+
+
 }

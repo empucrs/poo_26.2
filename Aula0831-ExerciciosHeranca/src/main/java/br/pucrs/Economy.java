@@ -12,4 +12,11 @@ public class Economy extends Passagem{
         return custoBasico+custoAdicional;
     }
 
+    @Override
+    public String toString() {
+        return "Imprimindo do objeto Economy";
+    }
+
+    
+
 }
